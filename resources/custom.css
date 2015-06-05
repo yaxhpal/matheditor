@@ -1,0 +1,174 @@
+/* this is a custom CSS style sheet */
+body{
+  
+}
+
+
+.glyphicon{
+	color: #3E5875;
+}
+
+
+.pull-right.img-responsive{
+	margin: 0 0 1em 1em;
+}
+.btn-info {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: #FFFFFF;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #3F2B22;
+  border-color: #333;
+}
+.panel-default {
+    border-color: #3F2B22;
+}
+.panel-default > .panel-heading {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: #fff;
+}
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "\00bb";
+}
+.navbar-inverse .navbar-toggle {
+  color: white;
+  font-weight: bold;
+  border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+  background-color: #ddd;
+  color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+  color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+  color: #333;
+}
+.tab-pane{
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding : 0 1em;
+}
+.active .glyphicon{
+  color: #cdae51;
+}
+
+
+
+table{
+  border-collapse: separate;
+  border-spacing: 2px;
+} 
+.mathquill-editable table{
+  margin:.1em;
+}
+/*! make a bit hack for sup and sub */
+sup{
+  top:0;
+}
+sub{
+  bottom: 0;
+}
+#math-parent{
+}
+div.mathquill-editable {
+  border: 1px solid #8FB6BD;
+  height:100%;
+  width:95%;
+  padding:10px;
+  
+  box-shadow: 0px 3px 15px 2px #F5F5F0;
+  word-wrap: break-word; /*Added property*/
+  min-height: 350px;
+}
+div.mathquill-editable:hover {
+  background: none 0% 0% / auto repeat scroll padding-box border-box rgb(245, 245, 240) !important;
+}
+.output {} .MathJax {
+  cursor: pointer;
+}
+input {
+ margin-top: .7em
+}
+#display {
+  border: 1px solid #8FB6BD;
+  box-shadow: 0px 3px 15px 5px #F5F5F0;
+  overflow-y:auto;
+  height:350px;
+  padding:7px;
+  font-size:18px;
+}   
+#display:hover {
+  background: none 0% 0% / auto repeat scroll padding-box border-box rgb(245, 245, 240) !important;
+}   
+.footer{
+  padding: 2em 0;
+  margin: 10px 0;
+  border-top: 1px solid #ddd;
+  color: #999;
+  text-align: center;
+   font-weight: bold;
+
+}
+html,body{
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+*[contenteditable] {
+    -webkit-user-select: auto !important;
+}
+.info{
+  margin-top:5px;
+  
+}
+.mathquill-rendered-math .empty{
+  background:#68b4df;
+}
+#rerender{
+  background-color: #B9C908;
+  border-color: #B9C908;
+  box-shadow: 0 0.25em 0 0 #828D00,0 4px 9px rgba(0,0,0,0.75);
+}
+.tab-content td{
+  padding: 2px 5px 2px 5px;
+}
+.tab-pane{
+  background: white;
+  z-index:1000;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  border-radius: 0;
+}
+.navbar{
+  min-height: 0;
+  border-bottom: 1px solid rgba(234, 248, 255, 0.73);
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+  border-top:0px;
+  padding: 5px;
+}
+.table{
+  margin:0;
+}
+.btn-danger{
+  box-shadow: 0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);
+}
+.btn-primary{
+  box-shadow: 0 0.25em 0 0 #285e8e,0 4px 9px rgba(0,0,0,0.75);
+}
+.btn-success{
+   box-shadow: 0 0.25em 0 0 rgba(19, 139, 19, 1),0 4px 9px rgba(0,0,0,0.75);
+}
